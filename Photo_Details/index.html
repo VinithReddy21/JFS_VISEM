@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Photo and Information</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+    <h2>Select a Name to Display Photo & Info</h2>
+    
+    <!-- Dropdown and OK Button -->
+    <select id="nameSelect" style='height:40px; width:320px;'>
+        <option value="">-- Select Name --</option>
+        <option value="Vinith">Vinith Reddy</option>
+        <option value="guido">Guido van Rossum (Python)</option>
+        <option value="dennis">Dennis M. Ritchie (C)</option>
+        <option value="james">James Gosling (Java)</option>
+        <option value="stroustrup">Bjarne Stroustrup (C++)</option>
+        <option value="juergen">Juergen Hoeller (Spring Framework)</option>
+        <option value="krishna">E Krishna Rao Patro (JFS Trainer)</option>
+        <option value="bill_gates">Bill Gates (Microsoft)</option>
+        <option value="steve_jobs">Steve Jobs (Apple)</option>
+        <option value="elon_musk">Elon Musk (Tesla/SpaceX)</option>
+        <option value="zukerberg">Mark Zuckerberg (Facebook)</option>
+        <option value="linus_torvalds">Linus Torvalds (Linux)</option>
+        <option value="tim_berner">Tim Berners-Lee (WWW)</option>
+        <option value="Sundar_Pichai">Sundar Pichai (Google CEO)</option>
+        <option value="satyanadella">Satya Nadella (Microsoft CEO)</option>
+        <option value="AdaLovelace">Ada Lovelace (1st Programmer)</option>
+        <option value="madhu">Madhu (JFS Trainer, CDC, IARE Hyderabad)</option>
+    </select>
+    
+    <!-- OK Button -->
+    <button id="okButton" style="height: 40px; width: 100px; margin-left: 10px;">OK</button>
+
+    <div class="container">
+        <!-- LEFT BOX: PHOTO -->
+        <div class="photo-box">
+            <img id="photo" src="" alt="Person Photo">
+        </div>
+
+        <!-- RIGHT BOX: INFORMATION -->
+        <div class="info-box" id="infoBox">
+            <span class="title">Person Information</span>
+            <p id="infoText">Please select a person from the dropdown and click OK.</p>
+        </div>
+    </div>
+
+    <script src="js/myjs.js"></script>
+    <footer>This is copyrighted @ Vinith Reddy</footer>
+</body>
+</html>

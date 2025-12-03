@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+#searchBox {
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.photo-box, .info-box {
+    background-image: url("./image_bg3.jpg");
+    width: 45%;
+    padding: 20px;
+    font-weight: 600;
+    border: 2px solid #333;
+    border-radius: 10px;
+    min-height: 260px;
+}
+
+#photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 25%;
+    object-fit: cover;
+    border: 2px solid #444;
+    display: none;
+}
+
+/* Special Styles for James Gosling */
+.photo-james {
+    border: 6px solid gold !important; 
+    padding: 5px;
+    border-radius: 0 !important;
+    width: 240px !important;
+    height: 260px !important;
+}
+
+.photo-james-blue {
+    width: 240px !important;
+    height: 260px !important;
+    border: 6px solid #1e90ff !important;
+    padding: 5px;
+    border-radius: 0 !important;
+    box-shadow: 0 0 20px #1e90ff;
+    animation: jamesBlueGlow 1s infinite alternate ease-in-out;
+}
+
+@keyframes jamesBlueGlow {
+    0%   { box-shadow: 0 0 10px #1e90ff; }
+    100% { box-shadow: 0 0 40px #1e90ff, 0 0 80px #00bfff; }
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Styling for Dropdown */
+select {
+    height: 40px;
+    width: 320px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  text-align: center;
+  background-image: url("image_bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  color: #2d2d2d;
+  height: 100%;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+}

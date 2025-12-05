@@ -1,0 +1,48 @@
+.body1{
+    background-image: url(image_bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.add{
+    background-color: yellow;
+    border-radius: 3px;
+    padding : 5px;
+    margin : 2px;
+}
+.sub{
+    background-color: red;
+    border-radius: 3px;
+    padding : 5px;
+    margin : 2px;
+}
+.mul{
+    background-color: green;
+    border-radius: 3px;
+    padding : 5px;
+    margin : 2px;
+}
+.div{
+    background-color: pink;
+    border-radius: 3px;
+    padding : 5px;
+    margin : 2px;
+}
+.input{
+    margin:8px;
+    padding :2px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    text-align: center;
+    font-weight: bold;
+}
+.table_position{
+    margin:0px 40% 0px;
+    padding : 3 px;
+    font-size: large;
+}
+.button{
+    border-radius: 3px;
+    padding : 2px;
+    margin : 2px;
+}
